@@ -9,13 +9,13 @@ In JavaScript, datatype conversion (or type coercion) refers to the process of c
 Explicit conversion, also known as typecasting, is when the programmer explicitly converts a value to a desired datatype using JavaScript functions or methods.
 
 - *To String*
-![alt text](../Images/image-17.png)
+- ![alt text](../Images/image-17.png)
 
 - *To Number*
-![alt text](../Images/image-18.png)
+- ![alt text](../Images/image-18.png)
 
 - *To Boolean Values* are converted to `true` or `false` based on their "truthiness." 
-![alt text](../Images/image-19.png)
+- ![alt text](../Images/image-19.png)
 
 
 2. #### Implicit Conversion
