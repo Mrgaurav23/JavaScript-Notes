@@ -8,7 +8,7 @@ An IIFE (Immediately Invoked Function Expression) is a function in JavaScript th
 ![alt text](../Images/image-129.png)
 
 - **Example**
-![alt text](../Images/image-130.png)
+- ![alt text](../Images/image-130.png)
 - The function is **wrapped in parentheses** to make it an expression.
 - The `()` after the function executes it immediately.
 
@@ -16,7 +16,7 @@ An IIFE (Immediately Invoked Function Expression) is a function in JavaScript th
 ![alt text](../Images/image-131.png)
 
 - **Example** :
-![alt text](../Images/image-132.png)
+- ![alt text](../Images/image-132.png)
 - Arrow functions can also be used for IIFEs.
 - Any arguments can be passed during invocation.
 
