@@ -89,7 +89,7 @@ ________________________________________________________________________________
 
 #### Ternary Operator:
 Shorthand for `if-else`:
-![alt text](../Images/image-149.png)
+- ![alt text](../Images/image-149.png)
 
 #### Checking for Empty Structures:
 - **Arrays**: `arr.length === 0`.
