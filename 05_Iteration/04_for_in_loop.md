@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ##### Output:
 ![alt text](../Images/image-174.png)
-**Important Note**: If you need values, prefer `for...of` for arrays, as `for...in` might behave unexpectedly with non-numeric properties.
+- **Important Note**: If you need values, prefer `for...of` for arrays, as `for...in` might behave unexpectedly with non-numeric properties.
 
 3. **`for...in` on a Map The `for...in` loop does not work on maps because maps are not directly enumerable.**
 ##### Example:
@@ -53,13 +53,13 @@ ________________________________________________________________________________
 - `for...in`: Iterates over the keys of an object or indices of an array.
 - `for...of`: Iterates over the values of an iterable object (e.g., arrays, maps, strings).
 ##### Example Comparison:
-![alt text](../Images/image-176.png)
+![alt text](../Images/image-178.png)
 
 4. **Maps and Sets**:
 - `for...in` does not work on maps or sets. Use `for...of` with destructuring.
 
 5. **Use Cases**:
-- **for...in**: Enumerating object keys or indices in arrays.
-- **for...of**: Iterating over values in arrays, strings, maps, or sets.
+- `for...in`: Enumerating object keys or indices in arrays.
+- `for...of`: Iterating over values in arrays, strings, maps, or sets.
 
 _________________________________________________________________________________________________________________________________
