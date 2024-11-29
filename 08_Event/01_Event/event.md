@@ -41,15 +41,12 @@ function EventListenerAppr() {
 
 ##### Key Properties to Explore:
 
-- **General Info** :  
-**`type`**,**`timeStamp`**,**`defaultPrevented`**.
-- **Target Information** : **`target`**,**`toElement`**,**`srcElement`**,**`currentTarget`**
+- **General Info** :  **`type`**,**`timeStamp`**,**`defaultPrevented`**.
+- **Target Information:`target`**,**`toElement`**,**`srcElement`**,**`currentTarget`**
 
-- **Coordinates** **
-**`clientX`**,**`clientY`**,**`screenX`**,**`screenY`**.
+- **Coordinates**: **`clientX`**,**`clientY`**,**`screenX`**,**`screenY`**.
 
-- **Modifiers**
-**`altKey`**,**`ctrlKey`**,**`shiftKey`**,**`keyCode`**
+- **Modifiers:`altKey`**,**`ctrlKey`**,**`shiftKey`**,**`keyCode`**
 
 #### Example
 ```javascript
@@ -139,3 +136,22 @@ function removeImages() {
 - For dynamic changes, such as removing elements, leverage event delegation and `event.target`.
 
 These concepts are fundamental for effectively handling user interactions in JavaScript.
+
+#### HTML
+``` HTML
+
+<body style="background-color: #000; color: #ffff;">
+    <h2>Amazing image</h2>
+    <div >
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+   </div>
+    <script src="event.js"></script>
+</body>
+```
